@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>ROSA - Home</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* تنسيق بسيط للأزرار لتبدو احترافية */
+        .nav-buttons { margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+        .btn { padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px; transition: 0.3s; }
+        .btn:hover { background-color: #45a049; }
+    </style>
 </head>
 <body>
     <div class="login-container">
-        <h2>Welcome!</h2>
-        <p>You have successfully logged in.</p>
+        <h2>Welcome to ROSA! 🌿</h2>
+        <p>You have successfully logged in. Explore our sections:</p>
+        
+        <div class="nav-buttons">
+            <a href="stor.html" class="btn">Store (المتجر)</a>
+            <a href="h.html" class="btn">History (تاريخنا)</a>
+            <a href="s.html" class="btn">Services (خدماتنا)</a>
+            <a href="a.html" class="btn">About (عن المشروع)</a>
+        </div>
+        
+        <br>
+        <a href="index.html" style="color: #666; font-size: 0.8em;">Logout</a>
     </div>
 </body>
 </html>
