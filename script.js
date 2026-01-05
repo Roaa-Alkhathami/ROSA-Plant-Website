@@ -12,8 +12,9 @@ loginForm.addEventListener("submit", function (event) {
 
     if (username === validUsername && password === validPassword) {
         alert("Login successful!");
-        window.location.href = "welcome.html";
+        window.location.href = "index.html";
     } else {
         errorMessage.style.display = "block";
     }
+
 });
