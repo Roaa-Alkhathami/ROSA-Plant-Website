@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(195, 156, 156);
+    background-color: #f0f8f0;
 }
 .card-list{
     width: 100%;
@@ -29,6 +29,7 @@ body{
     font-weight: bold;
     font-size: 20px;
 }
+
 
 
 
